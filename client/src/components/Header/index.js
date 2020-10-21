@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -19,23 +20,10 @@ function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-link active" href="#">
-            Home <span className="sr-only">(current)</span>
-          </a>
-          <a className="nav-link" href="#">
-            Features
-          </a>
-          <a className="nav-link" href="#">
-            Pricing
-          </a>
-          <a
-            className="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-          >
-            Disabled
-          </a>
+          <Link to={process.env.PUBLIC_URL + "/"} className="nav-link">Home</Link>
+          <Link to={process.env.PUBLIC_URL + "/contact"} className="nav-link">Contact</Link>
+          <Link to={process.env.PUBLIC_URL + "/portfolio"} className="nav-link">Portfolio</Link>
+          <Link to={process.env.PUBLIC_URL + "/resume"} className="nav-link">Resume</Link>
         </div>
       </div>
     </nav>

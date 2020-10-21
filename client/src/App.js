@@ -15,11 +15,12 @@ function App() {
       <Header />
         <Section>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
-            <Route path="*" component={NoMatch} />
+            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route exact path={process.env.PUBLIC_URL + "/home"} component={Home} />
+            <Route exact path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio} />
+            <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
+            <Route exact path={process.env.PUBLIC_URL + "/resume"} component={Resume} />
+            <Route path={process.env.PUBLIC_URL + "*"} component={NoMatch} />
           </Switch>
         </Section>
       <Footer />
