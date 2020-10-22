@@ -7,7 +7,7 @@ function Project(props) {
     return (
       <div className="card" >
         <img 
-        src={props.image} 
+        src={process.env.PUBLIC_URL + props.image} 
         alt={props.title}
         className="card-img-top"  />
         <h5 className="card-title">{props.title}</h5>
@@ -18,11 +18,10 @@ function Project(props) {
           <a href={props.repo}
             target="_blank"
             rel="noopener noreferrer" >
-            <FontAwesomeIcon icon={[fab, faGithubSquare]}/>
+            <FontAwesomeIcon icon={faGithubSquare}/>
             GitHub Repo
           </a>
-          <p> || </p>
-          <a href={props.link} 
+          <a href={props.link}
             target="_blank"
             rel="noopener noreferrer">
           <FontAwesomeIcon icon={faExternalLinkSquareAlt}/>

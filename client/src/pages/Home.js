@@ -6,13 +6,11 @@ function Home() {
     <Card title="About Me">
       <>
        <div className="card-image">
-          <figure className="is-4by3">
-            <img src="../../public/assets/Profilepic-250x250.jpg" alt="Thumbnail of Haley" />
-          </figure>
+            <img src={process.env.PUBLIC_URL + "/assets/Profilepic-250x250.jpg"} alt="Thumbnail of Haley" />
         </div>
 
         <div className="card-content">
-          <p><span style="font-size:2.5rem">Haley Myers</span></p>
+          <p><span style={{fontSize: "2.5rem"}}>Haley Myers</span></p>
         </div>
 
         <div className="content">

@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import projects from "../utils/project.json";
 
-class Portfolio extends React.Component() {
+class Portfolio extends React.Component {
   state = { projects };
 
     render(){

@@ -14,9 +14,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faEnvelope, faPhone)
-
-class App extends React.Component() {
+class App extends React.Component {
   render(){
     return (
       <Router>
