@@ -1,29 +1,41 @@
-# Create React Express App
+# Haley Myers Profile
 
-## About This Boilerplate
+## Description
+Thanks for visiting my profile and portfolio. You will find a short bio, my contact info, full resume, and a few examples of my work in my portfolio. Each project has links to the GitHub repo and deployed link. 
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+![React Profile Demo](./public/assets/react-profile-demo.gif)
 
-## Starting the app locally
+## Table of Contents
+* [Deployed Link](#deployed-link)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Author](#author)
+* [Questions](#questions)
+* [Acknowledgements](#acknowledgements)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Deployed Link
+[Deployed on Heroku](https://pure-dawn-33134.herokuapp.com/)
 
-```
-npm install
-```
+## Technologies
+This app was built using the following technologies
+* React.js 
+* Bootstrap
+* FontAwesome
+* Heroku
 
-This should install node modules within the server and the client folder.
+## Usage
+Used the deployed site provided above.
 
-After both installations complete, run the following command in your terminal:
+## License
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-```
-npm start
-```
+## Author
+Haley Myers
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Questions
+Please email [haleynmyers@gmail.com](mailto:haleynmyers@gmail.com)
 
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## Acknowledgements
+Thanks to Anthony Cooper for his instruction and trouble-shooting.  [antcoop](https://github.com/antcoop)
