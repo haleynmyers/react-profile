@@ -1,21 +1,36 @@
-import React, { Component } from "react";
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkSquareAlt, library } from '@fortawesome/free-solid-svg-icons';
+import { fab, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 function Project(props) {
 
     return (
-        <div className="card" style="width: 18rem;">
-        <img src={props.img} className="card-img-top" alt={props.title} />
+      <div className="card" >
+        <img 
+        src={props.image} 
+        alt={props.title}
+        className="card-img-top"  />
+        <h5 className="card-title">{props.title}</h5>
         <div className="card-body">
-            <h5 className="card-title">{props.title}</h5>
-            <p className="card-text">{props.description}</p>
+          <p className="card-text">{props.description}</p>
         </div>
         <div className="card-footer">
-        <Link to={props.repo} activeClassName="active">GitHub Repo</Link>
-        <p> || </p>
-        <Link to={props.link} activeClassName="active">Website</Link>
+          <a href={props.repo}
+            target="_blank"
+            rel="noopener noreferrer" >
+            <FontAwesomeIcon icon={[fab, faGithubSquare]}/>
+            GitHub Repo
+          </a>
+          <p> || </p>
+          <a href={props.link} 
+            target="_blank"
+            rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faExternalLinkSquareAlt}/>
+            Website</a>
         </div>
-    </div>
+      </div>
     );
-}
+};
 
 export default Project;

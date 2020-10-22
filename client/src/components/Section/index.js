@@ -1,8 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
-function Section() {
+function Section(props) {
 
-    return ();
+    return (
+        <div className="section">
+            {props.children}
+        </div>
+    );
 }
 
 export default Section;

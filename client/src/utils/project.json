@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Change For Good",
+    "image": "../../public/assets/change-for-good.gif",
+    "description": "Together with a group of 3 other developers, we made this
+    app to connect community members to all the ways they can
+    volunteer or otherwise participate in community events.
+    Change for Good displays a feed of all local events that
+    the user can browse and then save into their own 'Saved
+    Events' feed. It displays the organization who made the
+    event, title, description, and date.",
+    "repo": "https://github.com/ericlafontsee/Change-For-Good",
+    "link": "https://arcane-ravine-47168.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "title": "DYBS",
+    "image": "../../public/assets/dybs-demo2.gif",
+    "description": "This streamlined website is a search engine specifically targeting children's literature that features and
+    promotes diversity. The idea came from personal
+    experiece as a mother. I intentionally look for books at
+    the library that have a strong message of celebrating
+    our differences and feature marginalized communities.",
+    "repo": "https://github.com/haleynmyers/dybs",
+    "link": "https://haleynmyers.github.io/dybs/"
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "image": "../../public/assets/weather-dash-demo.gif",
+    "description": "A card is dynamically created to display the current weather and five day forecast of a desired location. Recently searched cities are saved to local storage to create a button for that city so you may quickly access that city's weather again.",
+    "repo": "https://github.com/haleynmyers/weather-dashboard",
+    "link": "https://haleynmyers.github.io/weather-dashboard/"
+  },
+  {
+    "id": 4,
+    "title": "Fitness Tracker",
+    "image": "../../public/assets/fitness-tracker-demo.git",
+    "description": "Keep track of each exercise in your workout by clicking the 'New Workout' button at the start of each session. You enter the information into the form, and if you want to add another exercise to that workout session, choose 'Add Exercise.' When you have entered all the exercised from that session, choose Complete to send that whole workout to your stats page. However, you can add to your most recent workout by clicking 'Continue Workout' from the home page. Click the Dashboard link at the top of the page to view your stats.",
+    "repo": "https://github.com/haleynmyers/fitness-tracker",
+    "link": "https://warm-forest-23524.herokuapp.com/"
+  }
+]
