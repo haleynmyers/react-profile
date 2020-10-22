@@ -1,10 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkSquareAlt, library } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
 import { fab, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 function Project(props) {
-
     return (
       <div className="card" >
         <img 

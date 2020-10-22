@@ -3,11 +3,11 @@ import Project from "../components/Project";
 import projects from "../utils/project.json";
 
 class Portfolio extends React.Component() {
-    state = { projects };
+  state = { projects };
 
     render(){
-      return(
-        <div className="d-flex flex-wrap">
+      return (
+        <div className="card-group d-flex flex-wrap">
           {this.state.projects.map(p => {
             return (
               <Project
@@ -22,6 +22,6 @@ class Portfolio extends React.Component() {
           })}
         </div>
       );
-    }
+    };
 }
 export default Portfolio;

@@ -7,7 +7,7 @@ function Home() {
       <>
        <div className="card-image">
           <figure className="is-4by3">
-            <img src="assets/img/Profilepic-thumbnail.jpg" alt="Thumbnail of Haley" />
+            <img src="../../public/assets/Profilepic-250x250.jpg" alt="Thumbnail of Haley" />
           </figure>
         </div>
 
