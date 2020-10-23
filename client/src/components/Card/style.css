@@ -1,0 +1,9 @@
+a{
+ color: black,
+};
+a:visited{
+    color: black,
+};
+a:focus{
+    color: rgb(90, 90, 90)
+}
