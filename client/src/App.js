@@ -10,9 +10,6 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import NoMatch from "./pages/NoMatch";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
 
 class App extends React.Component {
   render(){
