@@ -17,17 +17,17 @@ function Contact() {
                 <FontAwesomeIcon icon={faPhoneSquare} /> {"  "}Cell: 615-315-1593
               </li>
               <li>
-                <a href="https://github.com/haleynmyers" activeClassName="active">
+                <a style={{color: "black"}} href="https://github.com/haleynmyers" activeClassName="active">
                 <FontAwesomeIcon icon={faGithubSquare}/>{"  "}
                 GitHub: haleynmyers</a>
               </li>
               <li>
-                <a href="mailto:haleynmyers@gmail.com" activeClassName="active">
+                <a style={{color: "black"}} href="mailto:haleynmyers@gmail.com" activeClassName="active">
                     <FontAwesomeIcon icon={faEnvelopeSquare} />{"  "}
                     Email: haleynmyers@gmail.com</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/haley-myers-56a4a3b5/" activeClassName="active">
+                <a style={{color: "black"}} href="https://www.linkedin.com/in/haley-myers-56a4a3b5/" activeClassName="active">
                 <FontAwesomeIcon icon={faExternalLinkSquareAlt} />{"  "}
                 LinkedIn: haleynmyers</a>
               </li>

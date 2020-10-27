@@ -7,7 +7,7 @@ class Portfolio extends React.Component {
 
     render(){
       return (
-        <div className="card-group d-flex flex-wrap">
+        <div className="card-group">
           {this.state.projects.map((p, key) => {
             return (
               <Project
