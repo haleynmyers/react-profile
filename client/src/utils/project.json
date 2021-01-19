@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Change For Good",
+    "title": "Bill Tracker",
     "image": "/assets/change-for-good.gif",
-    "description": "Together with a group of 3 other developers, we made this app to connect community members to all the ways they can volunteer or otherwise participate in community events. Change for Good displays a feed of all local events that the user can browse and then save into their own 'Saved Events' feed. It displays the organization who made the event, title, description, and date.",
-    "repo": "https://github.com/ericlafontsee/Change-For-Good",
-    "link": "https://arcane-ravine-47168.herokuapp.com/"
+    "description": "Together with a group of 3 other developers, we created an app that alerts you before a bill is due so you aren't surprised when their account is charged.",
+    "repo": "https://github.com/KelalArrzenai/bill-tracker",
+    "link": "https://shrouded-inlet-74287.herokuapp.com/"
   },
   {
     "id": 2,
@@ -17,14 +17,6 @@
   },
   {
     "id": 3,
-    "title": "Weather Dashboard",
-    "image": "/assets/weather-dash-demo.gif",
-    "description": "A card is dynamically created to display the current weather and five day forecast of a desired location. Recently searched cities are saved to local storage to create a button for that city so you may quickly access that city's weather again.",
-    "repo": "https://github.com/haleynmyers/weather-dashboard",
-    "link": "https://haleynmyers.github.io/weather-dashboard/"
-  },
-  {
-    "id": 4,
     "title": "Fitness Tracker",
     "image": "/assets/fitness-tracker-demo.gif",
     "description": "Keep track of each exercise in your workout by clicking the 'New Workout' button at the start of each session. You enter the information into the form, and if you want to add another exercise to that workout session, choose 'Add Exercise.' When you have entered all the exercised from that session, choose Complete to send that whole workout to your stats page. However, you can add to your most recent workout by clicking 'Continue Workout' from the home page. Click the Dashboard link at the top of the page to view your stats.",
@@ -32,20 +24,12 @@
     "link": "https://warm-forest-23524.herokuapp.com/"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Progressive Budget Tracker",
     "image": "/assets/budget-demo.gif",
     "description": "Enter your expenses and income into the budgeting app for a quick visual of your funds. The app will automatically update the expense chart and graph. If you are offline, it will update the app with the cached data until you get back online.",
     "repo": "https://github.com/haleynmyers/progressive-budget-tracker",
     "link": "https://enigmatic-ridge-41605.herokuapp.com/"
-  },
-  {
-    "id": 6,
-    "title": "Secure Password Generator",
-    "image": "/assets/password-generator-demo.gif",
-    "description": "This program generates a random set of numbers, letters, and special characters based on the user's specifications. Upon clicking the Generate Password button, a series of questions pops up for the user to answer. The program then uses an array of all possible characters that the user approved, and selects a random index for the specified length of characters the user input.",
-    "repo": "https://github.com/haleynmyers/secure-password-generator",
-    "link": "https://haleynmyers.github.io/secure-password-generator/"
   }
 
 ]
